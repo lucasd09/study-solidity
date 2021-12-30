@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
  import "hardhat/console.sol";
 
 contract Token{
-    string public name   = 'Monkey Club Token';
-    string public symbol = 'MCT';
+    string public name   = 'Token Odds or Even';
+    string public symbol = 'TOE';
     uint public totalSupply   = 10000000;
     address public owner;
     mapping(address=> uint) balances;
