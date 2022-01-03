@@ -74,9 +74,46 @@
       ]
     },
     "C:\\Users\\FRG\\Documents\\Lucas\\Projetos\\study-solidity\\playground\\contracts\\Game.sol": {
-      "lastModificationDate": 1640880465650,
-      "contentHash": "16bb398719b7697e6acd0ac4fc280c82",
+      "lastModificationDate": 1641216549323,
+      "contentHash": "875398f1b6fb1111cbec9e37eaa355ce",
       "sourceName": "contracts/Game.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TwoPhaseCommit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Game"
+      ]
+    },
+    "C:\\Users\\FRG\\Documents\\Lucas\\Projetos\\study-solidity\\playground\\contracts\\TwoPhaseCommit.sol": {
+      "lastModificationDate": 1641210277748,
+      "contentHash": "5013116e66b03224ac205c83e7716181",
+      "sourceName": "contracts/TwoPhaseCommit.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
@@ -105,7 +142,6 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Game",
         "TwoPhaseCommit"
       ]
     }
