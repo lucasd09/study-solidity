@@ -16,7 +16,7 @@ contract EvenOdd {
         bool hasChosen;
         TwoPhaseCommit.CommitType sc;
         bool exists;
-    }
+    }   
 
     uint256 pool = 0;
     bool ok;

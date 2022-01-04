@@ -146,8 +146,8 @@
       ]
     },
     "C:\\Users\\FRG\\Documents\\Lucas\\Projetos\\study-solidity\\playground\\contracts\\EvenOdd.sol": {
-      "lastModificationDate": 1641303094474,
-      "contentHash": "180a808f409a3e9d97b51037da9b5d30",
+      "lastModificationDate": 1641313450030,
+      "contentHash": "37250a561c3daa6228a1e2130fbbfec8",
       "sourceName": "contracts/EvenOdd.sol",
       "solcConfig": {
         "version": "0.8.0",
